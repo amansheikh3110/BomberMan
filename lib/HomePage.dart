@@ -247,7 +247,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       MyButton(),
                       MyButton(
-                        color: Colors.purple[100],
+                        color: Colors.white,
                         function: moveUp,
                         child: Icon(Icons.arrow_drop_up, size: 70),
                       ),
@@ -258,13 +258,13 @@ class _HomePageState extends State<HomePage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       MyButton(
-                        color: Colors.purple[100],
+                        color: Colors.white,
                         function: moveLeft,
                         child: Icon(Icons.arrow_left, size: 70),
                       ),
                       MyButton(
                         function: placeBomb,
-                        color: Colors.purple[100],
+                        color: Colors.white,
                         child: Padding(
                           padding: const EdgeInsets.all(4.0),
                           child: Image.asset(
@@ -276,7 +276,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                       MyButton(
-                        color: Colors.purple[100],
+                        color: Colors.white,
                         function: moveRight,
                         child: Icon(Icons.arrow_right, size: 70),
                       ),
@@ -287,7 +287,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       MyButton(),
                       MyButton(
-                        color: Colors.purple[100],
+                        color: Colors.white,
                         function: moveDown,
                         child: Icon(Icons.arrow_drop_down, size: 70),
                       ),
